@@ -1,0 +1,20 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "build snake",
+        "type": "shell",
+        "command": "g++",
+        "args": [
+          "snake.cpp",
+          "-o",
+          "snake"
+        ],
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": []
+      }
+    ]
+  }
